@@ -1,11 +1,250 @@
-html {
-    height: 100%;
-    border: solid white;
+
+* {
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.siteHeading {
+    display: flex;
+    padding: .1em;
+    margin-bottom: .2em;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 42px;
+    letter-spacing: .1em;
+    color: #41729F;
+}
+
+.underline {
+    background-color: #5885AF;
+    margin-bottom: 2em;
+    height: 5px;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primaryButton {
+    display: flex !important;    
+    margin-top: 2em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: auto !important;
+    background-color: #41729F !important;
+}
+
+
+.cardContent {
+    height: 6em;
+    margin-bottom: .5em;
+}
+
+.projectsSection {
+    margin-bottom: 8em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.headline {
+    display: flex;
+    margin-left: 2em;
+    margin-bottom: 7em;
+}
+
+.profile {
+    height: 20em;
+    width: 20em;
+    margin-right: 2.5em;
+}
+
+.titleField {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 75vh;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
+}
+
+#cardStyle {
+    border-radius: 1em;
+    box-shadow: 0em .5em 1em lightgrey;
+}
+
+#artHead {
+    display: flex;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800;
+    letter-spacing: .1em;
+    font-size: 100px;
+    align-items: center;
+    padding-left: .75em;
+    padding-right: auto;
+}
+
+#introQuote {
+    display: flex;
+    width: 50%;
+    font-size: 54px;
+    font-weight: 300;
+    padding-top: .75em;
+    color: #44444C;
+}
+
+.skillsContainer {
+    margin-bottom: 7em;
+    background-color: #f2f2f2;
+    padding: 5em 0 4em 0;
+}
+
+.skillsSection {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    width: 70vw;
+    margin-bottom: 2em;
+}
+
+.skillsCopy {
+    width: 25vw;
+}
+
+.skillsHeader {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
-    font-weight: bold;
-    color: white;
-    background-color: black;
+    text-align: center;
+    width: 25vw;
+    height: 50%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.skillsQuote {
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    color: #44444C;
+}
+
+.quoteAtt {
+    font-style: italic;
+}
+
+.barWidth {
+    background-color: #5885AF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40em;
+    height: 25px;
+    margin: 1em;
+    box-shadow: .5em .5em .5em lightgray;
+}
+
+.techName {
+    width: 12em;
+    background-color: #41729F;
+    color: #f2f2f2;
+    text-align: center;
+    line-height: 25px;
+    align-self: center;
+    font-weight: 500;
+}
+
+.percentage {
+    align-self: center;
+    justify-self: right;
+    text-align: center;
+    font-weight: 100;
+    height: 25px;
+    line-height: 25px;
+    background-color: #C3E0E5;
+
+}
+
+.bar0 {
+    width: 3em;
+}
+
+.bar1 {
+    width: 3em;
+}
+
+.bar2 {
+    width: 5em;
+}
+
+.bar3 {
+    width: 8em;
+}
+
+.bar4 {
+    width: 8em;
+}
+
+.bar5 {
+    width: 10em;
+}
+
+.bar6 {
+    width: 3em;
+}
+
+.bar7 {
+    width: 8em;
+}
+
+.bar8 {
+    width: 5em;
+}
+
+.contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 60vh;
+    padding-bottom: 4em;
+}
+
+.centerContainer {
+    height: 25em;
+    width: 40em;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-control {
+    border: none;
+    border-radius: 3px;
+    padding-left: .5em;
+    margin: .5em 0 .75em 0;
+    width: 45em;
+    line-height: 2em;
+}
+
+.messageArea {
+    height: 10em;
 }
