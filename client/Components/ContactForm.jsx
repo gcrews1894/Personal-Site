@@ -31,7 +31,6 @@ export default function ContactUs() {
             <div>
                 <textarea className="form-control messageArea" placeholder="Your Message" name="message" /><br></br>
             </div>
-            {/* <input type="submit" value="Send Message" /> */}
             <Button type="submit" className="primaryButton" variant="contained" color="primary">Send Message</Button>
         </form>
     </div>

@@ -4,7 +4,7 @@ import BarGraph from '../Components/Skillgraph.jsx'
 export default function Skills() {
     return (
         <div className="skillsContainer">
-            <h1 className="siteHeading">Skills</h1>
+            <h1 className="siteHeading">Top Skills</h1>
             <div className="underline"></div>
             <div className="skillsSection">
                 <div className="skillsCopy">
