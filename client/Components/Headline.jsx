@@ -1,5 +1,4 @@
 import React from 'react';
-import image from '../Assets/Gavinprofile.jpg'
 
 export default function Headline() {
     return (
