@@ -16,6 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //routes
 
+
 // bad route error handling
 app.use((req, res) => {
   console.log('we are in a bad route');
