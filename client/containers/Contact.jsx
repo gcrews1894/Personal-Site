@@ -7,7 +7,7 @@ export default function Contact () {
 
     return (
         <div className="contactSection">
-            <a name="contact">
+            <a name="3">
                 <div className="centerContainer">
                     <h1 className="siteHeading contact">Contact Me</h1>
                     <div className="underline"></div>
